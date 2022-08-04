@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Website</title>
+    <script src="home.js" defer></script>
+  </head>
+  <body>
+      <header>
+          <nav>
+              <ul id="navigation">
+                  <li><a href="home">Home</a></li>
+                  <li id="logStatus"><a href="login">Login</a></li>
+                  <li id="registerButton" ><a href="register">Sign Up</a></li>
+                  <li id="chatButton"><a href="conversation">Chat</a></li>
+                  <li><a href="buy">Buy</a></li>
+              </ul>
+          </nav>
+      </header>
+      <div class="container">
+          <div id="title">
+              <h1>Apple Stock Today</h1>
+              
+          </div>
+          <div class="content1" id="stock1">Current Stock Price <span class="price" id=stockP1></span></div>
+          <div class="content2" id="content2">
+            <input id="loadStockButton" type="submit" value="Find Stock Price">
+            <p id="errorText"></p>
+          </div>
+          <div class="content3" id="content3">
+            Last minute's high: <span class="price" id=stockP2></span>
+            Last minute's low: <span class="price" id=stockP3></span></div>
+      </div>
+    
+  </body>
+</html>
+
